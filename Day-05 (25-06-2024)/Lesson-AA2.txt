@@ -82,3 +82,5 @@ Ananya          8658843777      ananyarout2010@gmil.com
         Example: 12345 = One Two Three Four Five
                  03786 = Zero Three Seven Eight Six
                  72913 = Seven Two Nine One Three
+
+        String[] words = {"Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"};
