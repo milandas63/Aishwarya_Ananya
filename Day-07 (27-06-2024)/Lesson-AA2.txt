@@ -1,0 +1,125 @@
+
+
+Aishwarya       8658842777      aishwaryarout2010@gmail.com
+Ananya          8658843777      ananyarout2010@gmil.com
+
++------------------------+
+|  Wednesday 19-06-2024  |	Day-01
++------------------------+
+    =   What is Java?
+
+        #
+        0   
+        1
+
+        ##
+        00  A
+        01  B
+        10  C
+        11  D
+
+        ########
+        00000000
+        00000001
+
+        2^8 = 256       ASCII (American Standard Code for Information Interchange)
+        2^16 = 35536    UNICODE
+
+
++-----------------------+
+|  Thursday 20-06-2024  |	Day-02
++-----------------------+
+    =	Flowchart
+		1)	Find the largest number between three numbers
+		2)	Find the largest number between n numbers
+		3)	Print first 10 natural numbers
+		4)	Print first 15 prime numbers
+
++---------------------+
+|  Friday 21-06-2024  |	Day-03
++---------------------+
+	=   Programs
+        1)  Print Hello World
+        2)  Print all numbers between 1 to 10
+        3)  Print all number in reverse from 10 to 1
+        4)  Print all odd numbers from 1 to 15
+        5)  Print all numbers between 0 to 100 divisible by 5
+        6)  Print all prime numbers between 100 and 200
+        7)  Print the sum of all number between 1 and 50
+        8)  Print a string in reverse order
+        9)  Print 15 numbers in the series 1,2,4,7,11,.......
+       10)  Print the 8 times multiplication table
+       11)  Print all multiplication table between 2 to 10 in horizontal order
+
++---------------------+
+|  Monday 24-06-2024  |	Day-04
++---------------------+
+    =   What is exception handling?
+        >   Exceptions are error that may likely occur during program compilation or
+            execution.
+        >   Exceptions are handled when the program is written within a try statement.k
+    =   Question:
+        1.  Count the number vowels in a given string?
+                "I am flying in an aeroplane to New Delhi"
+                "AEIOUaeiou"
+        2.  Count the number of alphabet occurance in a string
+            Hello World    Students Allowed       Holocaust
+               D = 1           A - 1                A - 1
+               E - 1           D - 2                C - 1
+               H - 1           E - 2                H - 1
+               L - 3           L - 1                L - 1
+               O - 2           N - 1                O - 2
+               R - 1           O - 1                S - 1
+               W - 1           S - 2                T - 1
+                               T - 2                U - 1
+                               U - 1
+                               W - 1
+
++----------------------+
+|  Tuesday 25-06-2024  |	Day-05
++----------------------+
+    =   Write a program to convert all digits in a number to words?
+        Example: 12345 = One Two Three Four Five
+                 03786 = Zero Three Seven Eight Six
+                 72913 = Seven Two Nine One Three
+
+        String[] words = {"Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"};
+
+        for(initializer; condition; increment) {
+        }
+
+        In an array, positions start from 0.
+
++------------------------+
+|  Wednesday 26-06-2024  |	Day-06
++------------------------+
+    =   Write a program to input a text, an integer and a character from the keyboard
+        and stretch the string to the number of character mentioned in the integer by
+        padding it with the character?
+        Example:    Enter a text:           Hello World
+                    Enter the length:       60
+                    Enter the character:    -
+
+        IIG Varsity-------------------------------------------------
+        -------------------------IIG Varsity------------------------
+        -------------------------------------------------IIG Varsity
+
+
+
++-----------------------+
+|  Thursday 27-06-2024  |	Day-07
++-----------------------+
+    =   How to create reuseable class with library functions
+    =   How to create one function to optimize several function
+    =   Write a program that takes a strings and splits to words. Prints them, 
+        one per line, in a rectangular frame.
+        For example: "Text that contemplate well being boosts motivation"
+        ***************
+        * Text        *
+        * that        *
+        * comtemplate *
+        * well        *
+        * being       *
+        * boosts      *
+        * motivation  *
+        ***************
