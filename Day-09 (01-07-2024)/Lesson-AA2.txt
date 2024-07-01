@@ -129,3 +129,24 @@ Ananya          8658843777      ananyarout2010@gmil.com
 +---------------------+
     =   WAP to create an array of all days in a week. 
         Print all day names using a for loop.
+
+    =   WAP to use the foreach loop, while loop and do..while loop
+        to print the above array of week days.
+
+    =   LIST OF RESERVE WORDS/KEY WORDS IN JAVA (53 words)
+        abstract    continue    for         new         switch
+        assert***   default     goto*       package     synchronized
+        boolean     do          if          private     this
+        break       double      implements  protected   throw
+        byte        else        import      public      throws
+        case        enum****    instanceof  return      transient
+        catch       extends     int         short       try
+        char        final       interface   static      void
+        class       finally     long        strictfp**  volatile
+        const*      float       native      super       while
+        null        true        false
+
+        *       not used
+        **      added in 1.2
+        ***     added in 1.4
+        ****    added in 5.0
