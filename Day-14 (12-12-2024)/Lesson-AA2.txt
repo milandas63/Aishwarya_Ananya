@@ -1,5 +1,5 @@
 Start date: 19-06-2024
-Github-Repo: 
+Github-Repo: https://github.com/milandas63/Aishwarya_Ananya
 
 
 Aishwarya       8658842777      aishwaryarout2010@gmail.com	Aishwarya-Rout
@@ -273,9 +273,20 @@ public class NumberOfWords {
     =   Google Meet Link:
         https://meet.google.com/zxf-gsfi-gcf
 
+        print("Ananya")
+        print("Aishwarya",end=" ")
+        print("Milan")
 
-+---------------------+
-|  Friday 13-12-2024  |	  Day-15
-+---------------------+
-    =   Google Meet Link:
-        https://meet.google.com/zxf-gsfi-gcf
+        for i in range(0,10):
+            print(i)
+            print("number")
+        print("Hello")
+
+        print("-------------------------------------------------------------------")
+
+        # Equivalent in Java
+        #for(int i=0; i<10; i++) {
+        #	System.out.println(i);
+        #	System.out.println("Hello");
+        #}
+
