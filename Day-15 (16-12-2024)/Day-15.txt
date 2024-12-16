@@ -1,0 +1,198 @@
+D:\IIG\Aishwarya-Ananya>python
+Python 3.11.3 (tags/v3.11.3:f3909b8, Apr  4 2023, 23:49:59) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>>
+>>> for i in range(0,10):
+... print(i, end=' ')
+  File "<stdin>", line 2
+    print(i, end=' ')
+    ^
+IndentationError: expected an indented block after 'for' statement on line 1
+>>> for i in range(0,10):
+...     print(i, end=' ')
+...
+0 1 2 3 4 5 6 7 8 9 >>>
+>>>
+>>>
+>>> # This is a comment line
+>>> # Any line that starts with a hash sign, is treated as a comment line
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> """
+... This is a mutiple line comment
+... You may write any number of
+... lines within a triple quote
+... """
+'\nThis is a mutiple line comment\nYou may write any number of\nlines within a triple quote\n'
+>>>
+>>>
+>>>
+>>> # asdofijaso;fijwopeuow
+>>> # This is a single line comment
+>>>
+>>>
+>>>
+>>>
+>>> 20 + 50
+70
+>>> 25 + 25
+50
+>>> 10 + 20
+30
+>>> x = 25
+>>> y = 10
+>>> print(x+y)
+35
+>>> 45 - 25
+20
+>>> x = 45
+>>> y = 25
+>>> z = x - y
+>>> print(z)
+20
+>>> 10 * 10
+100
+>>> 11 * 11
+121
+>>> 12 * 12
+144
+>>> x = 12
+>>> y = 12
+>>> z = x * y
+>>> print(z)
+144
+>>> 75 / 15
+5.0
+>>> x = 75
+>>> y = 15
+>>> z = x / y
+>>> print(z)
+5.0
+>>> name = "IIG Varsity"
+>>> print(name)
+IIG Varsity
+>>>
+>>> multi_name = {"Microsoft", "Sun Micro"}
+>>> print(multi_name)
+{'Microsoft', 'Sun Micro'}
+>>> multi_name = {'Microsoft', 'Sun Micro'}
+>>> print(multi_name)
+{'Microsoft', 'Sun Micro'}
+>>> multi_surname = {'Corporation','System'}
+>>> multi_name + multi_surname
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'set' and 'set'
+>>> addition = multi_name + multi_surname
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'set' and 'set'
+>>> set addition = multi_name + multi_surname
+  File "<stdin>", line 1
+    set addition = multi_name + multi_surname
+        ^^^^^^^^
+SyntaxError: invalid syntax
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> print(10, 20, 30, 450, 25)
+10 20 30 450 25
+>>> print(10,20,30,450,25)
+10 20 30 450 25
+>>> print(10,20,30,450,25, sep='/')
+10/20/30/450/25
+>>>
+>>>
+>>> print(10,20,30,450,25, sep='/', end='\n\n')
+10/20/30/450/25
+
+>>> for i in range(0,10):
+...     print(i, end='\n\n')
+...
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+>>> for i in range(0,10):
+...     print(i, end=' / ')
+...
+0 / 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9 / >>>
+>>>
+>>> for i in range(0,10):
+...     print(i, end='$')
+...
+0$1$2$3$4$5$6$7$8$9$>>>
+>>> for i in range(0,10):
+...     print(i)
+...
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+>>> for i in range(0,10):
+...     print(i,end='Ananya\n')
+...
+0Ananya
+1Ananya
+2Ananya
+3Ananya
+4Ananya
+5Ananya
+6Ananya
+7Ananya
+8Ananya
+9Ananya
+>>> for i in range(0,10):
+...     print(i,end='Ananya')
+...
+0Ananya1Ananya2Ananya3Ananya4Ananya5Ananya6Ananya7Ananya8Ananya9Ananya>>>
+>>>
+>>>
+>>> info = {"country":"India", "citizen":"Narendra Modi"}
+>>> print(info)
+{'country': 'India', 'citizen': 'Narendra Modi'}
+>>> print(info['country']
+...
+... )
+India
+>>> print(info['country'])
+India
+>>> print(info['citizen'])
+Narendra Modi
+>>>
